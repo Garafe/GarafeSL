@@ -1,0 +1,74 @@
+import requests
+
+url = "link"
+
+r = requests.get(url, allow_redirects=True)
+
+open('HTML-INTRODUCTION.pdf', 'wb').write(r.content)
+
+os.system ("mv HTML-INTRODUCTION.pdf /sdcard/GARAFE_OFFICIAL_NOTES/HTML_LESSONS/")
+
+
+url1 = "link"
+
+r = requests.get(url1, allow_redirects=True)
+
+open('HTML-LESSON_1.pdf', 'wb').write(r.content)
+
+os.system ("mv HTML-LESSON_1.pdf /sdcard/GARAFE_OFFICIAL_NOTES/HTML_LESSONS/")
+
+
+url2 = "link"
+
+r = requests.get(url2, allow_redirects=True)
+
+open('HTML-LESSON_2.pdf', 'wb').write(r.content)
+
+os.system ("mv HTML-LESSON_2.pdf /sdcard/GARAFE_OFFICIAL_NOTES/HTML_LESSONS/")
+
+
+url3 = "link"
+
+r = requests.get(url3, allow_redirects=True)
+
+open('HTML-LESSON_3.pdf', 'wb').write(r.content)
+
+os.system ("mv HTML-LESSON_3.pdf /sdcard/GARAFE_OFFICIAL_NOTES/HTML_LESSONS/")
+
+
+url4 = "link"
+
+r = requests.get(url4, allow_redirects=True)
+
+open('HTML-LESSON_4.pdf', 'wb').write(r.content)
+
+os.system ("mv HTML-LESSON_4.pdf /sdcard/GARAFE_OFFICIAL_NOTES/HTML_LESSONS/")
+
+
+
+url5 = "link"
+
+r = requests.get(url5, allow_redirects=True)
+
+open('PROGRAMMING_1.pdf', 'wb').write(r.content)
+
+os.system ("mv PROGRAMMING_1.pdf /sdcard/GARAFE_OFFICIAL_NOTES/PROGRAMMING_LESSONS/")
+
+
+url6 = "link"
+
+r = requests.get(url6, allow_redirects=True)
+
+open('PROGRAMMING_2.pdf', 'wb').write(r.content)
+
+os.system ("mv PROGRAMMING_2.pdf /sdcard/GARAFE_OFFICIAL_NOTES/PROGRAMMING_LESSONS/")
+
+
+
+url7 = "link"
+
+r = requests.get(url7, allow_redirects=True)
+
+open('HACKING_1.pdf', 'wb').write(r.content)
+
+os.system ("mv HACKING_1.pdf /sdcard/GARAFE_OFFICIAL_NOTES/HACKING_LESSONS/")
